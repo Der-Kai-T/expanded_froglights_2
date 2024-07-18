@@ -1,0 +1,20 @@
+[21:59:04] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.15.10
+[21:59:05] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
+[21:59:05] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED fabric-api 0.97.8+1.20.6 {depends java @ [>=21]}, ROOT_FORCELOAD_SINGLE fabric-api 0.97.8+1.20.6]
+[21:59:05] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP fabric-api 0.97.8+1.20.6 {depends java @ [>=21]}, HARD_DEP fabric-api 0.97.8+1.20.6 {depends minecraft @ [>=1.20.5- <1.20.7-]}, HARD_DEP fabric-convention-tags-v2 2.0.0+2b43c5c8ff {depends minecraft @ [>=1.20.5-beta.1]}]
+[21:59:05] [main/INFO] (FabricLoader/Resolution) Fix: add [], remove [], replace [[minecraft 1.20.1] -> add:minecraft 1.20.5-beta.1 ([[1.20.5-beta.1,1.20.7-)]), [java 20] -> add:java 21 ([[21,∞)])]
+[21:59:05] [main/ERROR] (FabricLoader) Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace 'Minecraft' (minecraft) 1.20.1 with any version between 1.20.5-beta.1 (inclusive) and 1.20.7- (exclusive).
+	 - Replace 'OpenJDK 64-Bit Server VM' (java) 20 with version 21 or later.
+More details:
+	 - Mod 'Fabric API' (fabric-api) 0.97.8+1.20.6 requires version 21 or later of 'OpenJDK 64-Bit Server VM' (java), but only the wrong version is present: 20!
+	 - Mod 'Fabric API' (fabric-api) 0.97.8+1.20.6 requires any version between 1.20.5- (inclusive) and 1.20.7- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	 - Mod 'Fabric Convention Tags (v2)' (fabric-convention-tags-v2) 2.0.0+2b43c5c8ff requires version 1.20.5-beta.1 or later of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.15.10.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:195) ~[fabric-loader-0.15.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.15.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.15.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.10.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]

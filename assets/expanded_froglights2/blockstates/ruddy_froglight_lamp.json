@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "active=false": { "model": "expanded_froglights:block/ruddy_froglight_lamp_off" },
+    "active=true": { "model": "expanded_froglights:block/ruddy_froglight_lamp" }
+  }
+}

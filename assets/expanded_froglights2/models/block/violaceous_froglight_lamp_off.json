@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "expanded_froglights:block/violaceous_froglight_lamp_off"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "minecraft:husbandry/froglights": {
+    "criteria": {
+      "froglights": "2024-06-08 23:19:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-06-08 23:18:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2024-06-08 23:18:46 +0200",
+      "minecraft:forest": "2024-06-08 23:18:33 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

@@ -1,0 +1,28 @@
+{
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2024-06-08 23:28:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/froglights": {
+    "criteria": {
+      "froglights": "2024-06-08 23:28:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-06-08 23:28:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2024-06-08 23:28:58 +0200",
+      "minecraft:forest": "2024-06-08 23:28:49 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

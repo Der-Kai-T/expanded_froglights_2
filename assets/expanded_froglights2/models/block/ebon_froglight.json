@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "expanded_froglights:block/ebon_froglight_top",
+    "side": "expanded_froglights:block/ebon_froglight_side"
+  }
+}

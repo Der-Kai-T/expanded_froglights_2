@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "expanded_froglights",
+  "version": "1.0.0",
+
+  "name": "Expanded Froglights for 1.20.1",
+  "description": "Update from https://modrinth.com/mod/expanded-froglights/version/1.0.0 for Minecraft 1.20.1",
+  "authors": [
+    "FoxXD_",
+    "Der-Kai-T",
+  ],
+
+  "license": "MIT",
+  "icon": "assets/expanded_froglights/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.foxhub.expanded_froglights.ExpandedFroglightsMod"
+    ]
+  },
+  "mixins": [
+    "expanded_froglights.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "expanded_froglights2:block/grideperle_froglight_lamp_off"
+  }
+}

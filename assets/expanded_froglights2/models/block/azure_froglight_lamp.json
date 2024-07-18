@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "expanded_froglights:block/azure_froglight_lamp"
+  }
+}
