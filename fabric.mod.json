@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "expanded_froglights",
+  "id": "expanded_froglights2",
   "version": "1.0.0",
 
   "name": "Expanded Froglights for 1.20.1",
   "description": "Update from https://modrinth.com/mod/expanded-froglights/version/1.0.0 for Minecraft 1.20.1",
   "authors": [
     "FoxXD_",
-    "Der-Kai-T",
+    "Der-Kai-T"
   ],
 
   "license": "MIT",
@@ -16,11 +16,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.foxhub.expanded_froglights.ExpandedFroglightsMod"
+      "com.dkt.expanded_froglights2.ExpandedFroglights2"
     ]
   },
   "mixins": [
-    "expanded_froglights.mixins.json"
+    "expanded_froglights2.mixins.json"
   ],
 
   "depends": {

@@ -1,4 +1,4 @@
-package com.example.mixin;
+package com.dkt.expanded_froglights2;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

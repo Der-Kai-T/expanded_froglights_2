@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expanded_froglights2:grideperle_froglight"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "expanded_froglights2:ebon_froglight",
+    "count": 1
+  }
+}
+        

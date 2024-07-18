@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expanded_froglights2:caucasian_froglight"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "result": {
+    "item": "expanded_froglights2:violaceus_froglight",
+    "count": 1
+  }
+}
+        

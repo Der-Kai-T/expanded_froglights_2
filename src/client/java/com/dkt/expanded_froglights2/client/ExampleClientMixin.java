@@ -1,4 +1,4 @@
-package com.example.mixin.client;
+package com.dkt.expanded_froglights2.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;

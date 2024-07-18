@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.dkt.expanded_froglights2.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
